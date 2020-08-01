@@ -1,110 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-    <title>Kaim - Cervejaria e Drinks</title>
-    <meta charset="UTF=8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/5ae011d3b4.js" crossorigin="anonymous"></script>
-    
+    <title>Home - Kaim</title>
+
 </head>
-
 <body>
-    <header>
-        <div class="main"></div>
-        <div class="container-button">
-            <i class="fas fa-angle-double-up"></i>
-        </div>
-
-        <nav class="menu">
-            <input type="checkbox" id="bt_menu" class="bt_menu">
-            <label for="bt_menu">&#9776;</label>
-            
-            <ul class="dropdown-menu container">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#kaim">Kaim</a></li>
-                <li><a href="#drinks">Drinks</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+    <header class="cabecalho">
+        <nav class="logo">
+            <a href="index.html" title="Cerveja Kaim"><img src="img/logo.png" alt="Kaim Logo"></a>
         </nav>
-
-        <div class="caixa-logo">
-            <figure class="container-img">
-                <img class="img-logo" src="./img/logo.png" alt="Kaim Logo">
-            </figure>
-        </div>
     </header>
 
-<section id="sobre" class="sobre container">
-    <h2>Sobre</h2>
-    <p>
-        Rapaz.
-    </p>
-  
-    <p>
-        Quem sabe.
-    </p>
-</section>
-
-<section id="kaim" class="kaim container">
-    <h2>Kaim</h2>
-</section>
-
-<section id="drinks" class="drinks container">
-    <h2>Drinks</h2>
-    <nav>
-        <h3>Vodka</h3>
-        <h3>Gin</h3>
-        <h3>Rum</h3>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre a Empresa</a></li>
+            <li><a href="#">Nossos Produtos</a></li>
+        </ul>
+        <div class="social-icons">
+            <a target="_blank" href="https://www.instagram.com/cervejakaim/" class="btn-instagram"><i class="fab fa-instagram fa-lg"></i></a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5561985551585" class="btn-whatssapp"><i class="fab fa-whatsapp fa-lg"></i></a>
+        </div>
     </nav>
-</section>
 
-<section id="contato" class="contato container">
-    <h2>Contato</h2>
-    <div class="grid icons">
-        <a target="_blank" href="https://www.instagram.com/cervejakaim/">
-            <i class="fab fa-instagram-square"></i>
-        </a>
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=5561981506904">
-            <i class="fab fa-whatsapp-square"></i>
-        </a>
-    </div>
-</section>
+    <nav class="ipa">
+        <div><img src="img/kaim.png" alt=""></div>
+        <h1>Cerveja IPA: tudo o que você precisa saber sobre a India Pale Ale</h1>
+        <p>Com o mercado de cervejas crescendo no Brasil, palavras como “lúpulo”, “encorpada” e “frutada” estão cada vez mais na boca 
+            das pessoas. Porém, nem sempre se sabe o que esperar de cada estilo de cerveja e isso acaba gerando decepções e surpresas.</p>
+        <p>Claro, aqui também tem informações para você tirar aquela onda com seus amigos e passar a cultura cervejeira adiante.</p>
+        <p>Este é o primeiro capítulo desta série, e para começar nada melhor do que o estilo que faz a cabeça dos lupulomaníacos e é 
+            cada vez mais cultuado no Brasil. Com vocês, tudo que vocês precisa saber sobre IPA.</p>
 
-<script type="text/javascript" src="jquery/jquery.min.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-          $('.fa-angle-double-up').fadeIn();
-          $('.container-button').css({
-            opacity: function () {
-              var opacity = 1;
-              //TODO:
-              //Set opacity to a higer value whilst user scrolls
-              return opacity;
-            }
-          });
-        } else {
-          $('.fa-angle-double-up').fadeOut();
-        }
-      });
+        <h1>O que é a cerveja IPA?</h1>
+        <p>IPA significa India Pale Ale, um estilo que veio da Índia. São cervejas amargas devido a concentração de lúpulos, 
+            extremamente aromáticas, refrescantes e fáceis de beber. Sua cor deve ser de dourado a acobreado. Apresentam um teor 
+            alcoólico que tradicionalmente vai de 5,5 a 7,5%.</p>
+        <p>As cervejas do estilo IPA fazem um ótimo contraponto contra a grande indústria — que geralmente produzem bebidas neutras, 
+            extremamente leves, de cor estupidamente clara e com quase nada de amargor.</p>
 
-      $('.fa-angle-double-up').click(function () {
-        $('body, html').animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-      });
-    });
+        <h1>História da cerveja IPA</h1>
+        <p>A história, ou lenda, é que os ingleses precisavam de cervejas com mais lúpulo e álcool para que ela aguentasse viagens mais 
+            longas, pois o lúpulo é um conservante natural e as viagens da época iam para a Índia.</p>
+        <p>Podemos dizer que essa história é bem controversa, há quem defenda mas também há quem considere uma piada.</p>
+        <p>Fato é que o estilo surgiu na Inglaterra, como uma versão mais potente e amarga do que as pale ales e ele se tornou um 
+            coadjuvante até o renascimento da americana. Com novos tipos de lúpulo locais e com a atitude de levar as cervejas ao 
+            extremo, as IPAs se tornaram a marca do movimento de cervejas artesanais nos EUA.</p>
+        <p>Então, a IPA foi o chute na porta das cervejas “claras e sem graça”!</p>
 
-  </script>
-
+        <h1>O que esperar de uma cerveja IPA?</h1>
+        <p>Lúpulo, é claro!</p>
+        <p>Precisa de mais informação? Ok, então vamos lá… é uma cerveja que tem esta linda e amada flor como destaque.</p>
+        <p>Então, uma IPA deve ter um amargor marcante, com um equilíbrio puxando mais para o amargo mesmo, não se assuste. O corpo não 
+            pode ser muito alto e os sabores e aromas de caramelo, principalmente nas versões americanas, devem ser bem discretos. Mais 
+            que amargor, o lúpulo aqui deve trazer uma explosão de aromas nos copo e os mais encontrados são os cítricos, que podem 
+            lembrar: maracujá, laranja, manga, grapefruit, entre outras frutas.</p>
+        <p>Também encontramos muitas notas florais e resinosas, entre outras, mas tudo vai depender de como e quanto o cervejeiro vai usar 
+            na sua receita. Existem dezenas de espécies de lúpulo, e a combinação deles, ou mesmo utilização de um só, o chamado single 
+            hop, vai determinar a característica da cerveja.</p>
+    </nav>
+    
     
 </body>
 </html>
-<!-- <ul type="disc" / "square" ou "circle">  -->
-<!-- <ol type="1" / "A" / "a" / "I" ou "i">  -->
-<!-- <p> strong / strike / em / underline  -->

@@ -1,0 +1,27 @@
+/*RESET*/
+* {margin: 0; padding: 0; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; box-sizing: border-box; border: none; outline: none;}
+img {max-width: 100vh;}
+ul {list-style: none;}
+a {text-decoration: none;}
+h1 {font-size: 1.5em; color: #445e37;}
+p {font-size: 1em; color: #445e37;}
+/*CABEÇALHO*/
+body {background-color: #f1eceb;}
+.cabecalho {background-color: #d4cb9f; width: 940px; margin: 0 auto;}
+.logo {position: relative; width: 940px; text-align: center; margin: 0 auto;}
+.logo img {width: 25%;}
+/*MENU*/
+.menu{position:relative; width: 940px; margin: 0 auto; display: flow-root; background-color: #445e37; padding: 18px 8%;}
+.menu li {float: left;}
+.menu li a{color: #d4cb9f; margin-right: 25px;}
+.menu li a:hover {color: #fff;}
+/*SOCIAL ICONS*/
+.social-icons {float:right;}
+.social-icons a {color: #fff; float: left;margin-left: 12px;}
+.btn-instagram:hover {color: lightcoral}
+.btn-whatssapp:hover {color: #34af23;}
+/*IPA*/
+.ipa {background-color: #d4cb9f; position:relative; width: 940px; margin: 0 auto; padding: 20px;}
+.ipa div {position: relative; text-align: center;}
+.ipa h1 {margin: 20px 0 20px 0; font-weight: bolder; text-align: center;}
+.ipa p {text-align: justify; margin-bottom: 1em;}
